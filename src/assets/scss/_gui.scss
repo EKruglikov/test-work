@@ -1,0 +1,50 @@
+.gui-input {
+  border: 1px solid #E1E1E1;
+  padding: 13px 16px;
+  max-width: initial;
+  min-width: auto;
+
+  outline: none;
+  &:focus {border-color: $color-brown;}
+}
+
+.gui-button {
+  background-color: $color-brown;
+  padding: 13px 36px;
+  font-size: 14px;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.gui-search {
+  display: flex;
+
+  &__field {
+    min-width: 280px;
+    max-width: 280px;
+    width: 100%;
+  }
+}
+
+.gui-basket {
+  position: relative;
+  cursor: pointer;
+
+  &__counter {
+    position: absolute;
+    top: -1px;
+    right: -10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: $color-brown;
+    color: #fff;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 12px;
+  }
+}

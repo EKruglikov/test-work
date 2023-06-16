@@ -1,0 +1,21 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a, a:hover {text-decoration: none; color: inherit;}
+
+ul,ol {list-style-type: none;}
+
+button, input, textarea {font-family: inherit;}
+
+input::placeholder {
+  color: #9F9F9F;
+}
+
+h2 {
+  color: $color-dark-brown;
+  font-size: 24px;
+  font-weight: 700;
+}
